@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:fontFamily="@fond/lobster"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Type the ip of the server"
+
+        />
+    <EditText
+        android:id="@+id/SLOWtarget"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFF"
+
+        />
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:fontFamily="@fond/lobster"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Type the port of the server"
+
+        />
+    <EditText
+        android:id="@+id/SlowPort"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFF"
+
+        />
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:fontFamily="@fond/lobster"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Type the threads you want"
+
+        />
+    <EditText
+        android:id="@+id/Slowthreads"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFF"
+
+        />
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:fontFamily="@fond/lobster"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Type the time you want"
+
+        />
+    <EditText
+        android:id="@+id/SlowTime"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFF"
+
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>

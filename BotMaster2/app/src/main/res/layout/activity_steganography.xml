@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".steganography.Steganography">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageChooser"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+       />
+
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Choose an image from your Gallery"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Chooser"
+        android:layout_gravity="center"
+        android:text="Image Chooser" />
+
+
+
+
+
+    <Button
+        android:id="@+id/StegOK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Ready to Encode"
+        />
+
+
+</LinearLayout>
+</ScrollView>

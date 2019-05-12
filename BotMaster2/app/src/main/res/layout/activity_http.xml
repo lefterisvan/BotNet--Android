@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:fontFamily="@fond/lobster"
+        android:id="@+id/text2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Type the ip of the server"
+
+        />
+    <EditText
+        android:id="@+id/HTTPtarget"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFF"
+
+        />
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:fontFamily="@fond/lobster"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Type the threads you want"
+
+        />
+
+    <EditText
+        android:id="@+id/HTTPthreads"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFF"
+
+        />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:fontFamily="@fond/lobster"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Type the attack minutes"
+
+        />
+
+    <EditText
+        android:id="@+id/HTTPminutes"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFF"
+
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86259b2e-9d8e-49ae-8df6-f6b97547b2c0" name="Default Changelist" comment="BotClient connection to hidden service">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/botclient/HeartBeatAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/botclient/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/botclient/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/botclient/HeartBeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/botclient/HeartBeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/botclient/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/botclient/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/botclient/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/botclient/Services.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-979144032">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1018" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1018" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="57" />
+          <entry key="png" value="1" />
+          <entry key="properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="57" />
+          <entry key="Properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1026774725">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="13" />
+          <entry key="gradle" value="10" />
+          <entry key="java" value="3279" />
+          <entry key="txt" value="52" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="10" />
+          <entry key="JAVA" value="3279" />
+          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="29" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="5" />
+          <entry key="project.open.time.16" value="4" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="8" />
+          <entry key="java" value="79" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="8" />
+          <entry key="JAVA" value="79" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/DeSteganography/TextDecoding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Images.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-680">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/TextEncoding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Encode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/DeSteganography/Decode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>0</find>
+      <find>backl</find>
+      <find>allSockets</find>
+      <find>inet</find>
+      <find>heart</find>
+      <find>write</find>
+      <find>Handler</find>
+      <find>po</find>
+      <find>thread</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/com/example/botclient/udpflood/UdpFlood.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/com/example/botclient/udpflood/Flooder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris_async/SlowLoris.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris_async/ConnectionHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris_async/SlowCaller.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris_async/SlowAttack.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/TestAttack.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/udpflood/Flooder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/httpflood/HttpFlood.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris/SlowAttack.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris/SlowLorisfff.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris/SlowCaller.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris/SlowLoris.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/udpflood/UdpFlood.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/HeartBeat.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/HeartBeatAsync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/HeartBeatAsync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/Services.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Steganography.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/Images.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Images.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/Steganography.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/Necessary.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/DeSteganography/Decode.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Encode.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Utility.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/DeSteganography/Desteganography.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/botclient/Bot.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/DeSteganography/TextDecoding.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/TextEncoding.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="43" />
+    <option name="width" value="1943" />
+    <option name="height" value="1103" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BotClient" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="BotClient" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example.botclient" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BotClient" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example.botclient" type="1f31426a:PackageElementNode" />
+              <item name="DeSteganography" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BotClient" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example.botclient" type="1f31426a:PackageElementNode" />
+              <item name="steganography" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BotClient" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example.botclient" type="1f31426a:PackageElementNode" />
+              <item name="udpflood" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BotClient" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BotClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BotClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BotClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BotClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="device.picker.selection" value="XEDNW18828005977" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Steganography" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.botclient" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.botclient.steganography" />
+      <recent name="com.example.botclient" />
+      <recent name="com.example.botclient.DeSteganography" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lefte\OneDrive\Asfaleia\Asfaleia Kinitwn\Evgenia2\BotClient\app\build\generated\source\buildConfig\debug\com\example\botclient\DeSteganography" />
+      <recent name="C:\Users\lefte\OneDrive\Asfaleia\Asfaleia Kinitwn\Evgenia2\BotClient\app\build\generated\source\buildConfig\debug\com\example\botclient\steganography" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86259b2e-9d8e-49ae-8df6-f6b97547b2c0" name="Default Changelist" comment="" />
+      <created>1551872080834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551872080834</updated>
+    </task>
+    <task id="LOCAL-00001" summary="BotClient connection to hidden service">
+      <created>1553169997658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553169997658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15503356" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.7510661" weight="0.45770064" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49946696" weight="0.63123643" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.26107383" side_tool="true" weight="0.5262411" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.7389262" weight="0.5914894" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="9" sideWeight="0.4989339" weight="0.329718" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BotClient connection to hidden service" />
+    <option name="LAST_COMMIT_MESSAGE" value="BotClient connection to hidden service" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/TestAttack.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/httpflood.java" />
+    <entry file="file://D:/Μεταπτυχιακό/1ο Εξάμηνο/Ασφάλεια Δικτύων/Εργασία Β1/Φάση 1/Βασική Υποδομή_Κώδικας/Client/src/Client.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="495" column="28" selection-start-line="495" selection-start-column="28" selection-end-line="495" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris/ConnectionHandler.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris/SlowLorisfff.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/httpflood/HttpFlood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/udpflood/UdpFlood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/udpflood/Flooder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/Services.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="18" selection-start-line="26" selection-start-column="8" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris/SlowLoris.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="108" column="22" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/slowloris/SlowCaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/HeartBeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="30" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/palmtree.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Steganography.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/HeartBeatAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/Images.java" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/Necessary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/Steganography.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="107" selection-start-line="69" selection-start-column="107" selection-end-line="69" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="190" column="2" selection-start-line="190" selection-start-column="2" selection-end-line="190" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/botclient/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/DeSteganography/Desteganography.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/DeSteganography/Decode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/DeSteganography/TextDecoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/botclient/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/TextEncoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Encode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/botclient/steganography/Images.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

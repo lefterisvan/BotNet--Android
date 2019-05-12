@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".DeSteganography"
+    >
+
+
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Choose an image from your Gallery"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeButton"
+        android:layout_gravity="center"
+        android:text="Image Chooser" />
+    <ImageView
+        android:id="@+id/Deimage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+
+</LinearLayout>

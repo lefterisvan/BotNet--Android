@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="200dp"/>
+
+        <TextView
+            android:background="#000"
+            android:textColor="#FFF"
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Check which bot is activated"
+
+            />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_gravity="center"
+        android:text="bots" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:background="#000"
+        android:textColor="#FFF"
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select the attack"
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_gravity="center"
+        android:text="attacks" />
+
+    </LinearLayout>
